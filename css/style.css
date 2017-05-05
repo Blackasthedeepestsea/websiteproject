@@ -1,0 +1,18 @@
+h1 {
+  font-family: 'Permanent Marker', cursive;
+   }
+p {
+    font-family: 'Chewy', cursive;
+   }
+
+body {
+	background-color: black;
+	color: yellow;
+	text-align: center;
+}
+
+img 
+	{
+		height: 35%;
+		width: 35%;
+	}
