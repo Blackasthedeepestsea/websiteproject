@@ -7,7 +7,7 @@ img {
  #title {
  	padding:2px;
    border:3px solid yellow;
-   background-color:orange;
+   background: orange;
    color: black;
    text-align: center;
 }
@@ -29,20 +29,78 @@ img
 		height: 35%;
 		width: 35%;
 	}
-#logo {
-	height: 13%;
-	width: 13%;
+header {
+	position: relative;
+	height: 70px;
+	background-color: blue;
 }
-#floatContainer .floatThis{
-		height:65%;
-		width:65%;
-		float: left;
-	}
-	#floatContainer: after {
-		content: '';
-		display: block;
-		clear: both;
-	}
+
+#logo{
+	height: 170px;
+	width: 130px;
+	padding:2px;
+}
+
+nav{
+	position:absolute;
+	right:0px;
+	top:0px;
+	padding:0px;
+	margin:0px;
+}
+
+nav > ul{
+	margin:15px;
+}
+
+nav li ul{
+	display:none;
+}
+
+nav li:hover ul, nav ul li li{
+	display:block;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav ul li ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav a{
+    border:3px solid black;
+	font-family: "Chewy", cursive;
+	color:black;
+	background: linear-gradient( -45deg, yellow,orange 30%, orange 70%, red);
+	text-decoration: none;
+	padding:10px;
+	display: block;
+	width:100px;
+	text-align: center;
+}
+
+nav a:hover{
+	background: black;
+	color: yellow;
+}
+.btn, .btn:focus, .btn:visited, .btn:active {
+	display:inline-block;
+	padding:10px;
+	background-color: black;
+	color: yellow;
+	text-decoration: none;
+	opacity:.5;
+}
+
+.btn:hover{
+	background-color: black;
+	opacity:1;
+}
 
 	footer {
 		text-align: center;
@@ -50,7 +108,7 @@ img
 	}
 
 	.vertalign img{
-		height: 50%;
-		width: 50%;
+		height: 45%;
+		width: 45%;
 		vertical-align: middle;
 	}
