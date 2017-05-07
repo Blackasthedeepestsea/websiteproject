@@ -3,16 +3,30 @@ h1 {
    }
 p {
     font-family: 'Chewy', cursive;
+    font-size: 24px;
    }
 
 body {
 	background-color: black;
 	color: yellow;
-	text-align: center;
 }
 
 img 
 	{
 		height: 35%;
 		width: 35%;
+	}
+#logo {
+	height: 13%;
+	width: 13%;
+}
+#floatContainer .floatThis{
+		height:65%;
+		width:65%;
+		float: left;
+	}
+	#floatContainer: after {
+		content: '';
+		display: block;
+		clear: both;
 	}
