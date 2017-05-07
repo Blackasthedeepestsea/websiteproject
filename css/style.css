@@ -15,8 +15,8 @@ h1 {
   font-family: 'Permanent Marker', cursive;
    }
 p {
-    font-family: 'Chewy', cursive;
-    font-size: 24px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
     text-indent: 50px;
 }
 
@@ -75,7 +75,7 @@ nav ul li ul{
 
 nav a{
     border:3px solid black;
-	font-family: "Chewy", cursive;
+	font-family: "Architects Daughter", cursive;
 	color:black;
 	background: linear-gradient( -45deg, yellow,orange 30%, orange 70%, red);
 	text-decoration: none;
@@ -83,7 +83,8 @@ nav a{
 	display: block;
 	width:100px;
 	text-align: center;
-	font-size: 25px;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 nav a:hover{
@@ -109,12 +110,17 @@ nav a:hover{
 		font-size: 3px;
 	}
 
-	.vertalign img{
-		height: 35%;
-		width: 35%;
-		vertical-align: middle;
-	}
 
 	footer {
 		color: #0033ff;
 	}
+
+	#paragraph {
+		float: right;
+		text-align: top;
+	}
+
+
+
+
+	
