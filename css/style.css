@@ -1,14 +1,12 @@
+
 * {
 	font-family: "Architects Daughter";
-	font-size: 28px;
+	font-size: 30px;
 	color:#FFCC00;
-	font-weight: bolder;
 }
 .pic {
-	background:red;
-    width: 200px;
-	border-radius: 15px;
-	border: 2px solid yellow;
+    width: 30%;
+    padding: 5px;
 }
 img {
    padding:1px;
@@ -16,6 +14,7 @@ img {
    background-color: black;
    width: 800px;
 }
+
  
  .title {
  	padding:2px;
@@ -36,7 +35,7 @@ h1 {
    }
 p {
     font-family: 'Architects Daughter', cursive;
-    font-size: 25px;
+    font-size: 20px;
     text-indent: 50px;
 }
 
@@ -84,7 +83,7 @@ nav{
 }
 
 nav > ul{
-	margin:10px;
+	margin:5px;
 }
 
 nav li ul{
@@ -99,11 +98,11 @@ nav ul li{
 	list-style: none;
 	display: inline-block;
 	vertical-align: top;
-	margin: 3px;
+	margin: 2px;
 }
 
 nav ul li ul{
-	margin:5px;
+	margin:2px;
 	padding:0px;
 }
 
@@ -113,7 +112,7 @@ nav a{
 	color:black;
 	background: linear-gradient( -45deg, yellow,orange 30%, orange 70%, red);
 	text-decoration: none;
-	padding:10px;
+	padding:4px;
 	display: block;
 	width:100px;
 	text-align: center;
@@ -128,27 +127,17 @@ nav a:hover{
 }
 
 
-	footer {
-		text-align: center;
-		font-size: 3px;
-	}
-
-
-	footer {
-		color: #0033ff;
-	}
-
-	#paragraph {
+#paragraph {
 		float: right;
 		text-align: top;
 	}
 
 #hero {
     background-image: url(../assets/img/opietattoo.jpg);
-    background-size:85% 95%;
+    background-size:100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    height:130vh;
+    height:900px;
     display:flex;
     align-items:center;
     align-content:center;
@@ -194,10 +183,23 @@ nav a:hover{
 }
 
 .art {
-    padding: 100px 50px;
+    padding: 250px 20px;
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-content: stretch;
     background:black;
+    vertical-align: text-top;
+}
+
+.bio {
+    padding: 50px 50px;
+	text-align: left;
+	justify-content: center;
+	align-content: stretch;
+    background:black;
+}
+    
+#contact {
+    padding: 50px 100px;
 }
