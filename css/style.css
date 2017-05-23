@@ -1,49 +1,54 @@
-
 * {
-	font-family: "Architects Daughter";
-	font-size: 30px;
-	color:#FFCC00;
-    letter-spacing:4px;
+    font-family: "Architects Daughter";
+    font-size: 30px;
+    color: #FFCC00;
+    letter-spacing: 4px;
 }
+
 .pic {
     width: 30%;
     padding: 5px;
 }
+
 img {
-   padding:1px;
-   border:1px double black;
-   background-color: black;
-   width: 800px;
+    padding: 1px;
+    border: 1px double black;
+    background-color: black;
+    width: 800px;
 }
 
- 
- .title {
- 	padding:2px;
-   border:3px solid black;
-   background: linear-gradient( -45deg, blue,orange 30%, orange 70%, blue);
-   color: black;
-   text-align: center;
+
+.title {
+    padding: 2px;
+    border: 3px solid black;
+    background: linear-gradient( -45deg, blue, orange 30%, orange 70%, blue);
+    color: black;
+    text-align: center;
 }
 
 #heroo {
-	float:left;
-	vertical-align: text-top;
-	margin:10px;
-	width:50%;
+    float: left;
+    vertical-align: text-top;
+    margin: 10px;
+    width: 50%;
 }
+
 #heroo1 {
-	float:left;
-	vertical-align: text-top;
-	margin:30px;
-	height:500px;
-    width:350px;
+    float: left;
+    vertical-align: text-top;
+    margin: 30px;
+    height: 500px;
+    width: 350px;
 }
+
 .i {
-    color:deepskyblue;
+    color: deepskyblue;
 }
+
 h1 {
-  font-family: 'Permanent Marker', cursive;
-   }
+    font-family: 'Permanent Marker', cursive;
+}
+
 p {
     font-family: 'Architects Daughter', cursive;
     font-size: 20px;
@@ -51,210 +56,214 @@ p {
 }
 
 body {
-	background-color: black;
-	color: #FFCC00;
-	background-image: url(../assets/img/opiefineart.jpg);
-    background-size:100% auto;
+    background-color: black;
+    color: #FFCC00;
+    background-image: url(../assets/img/opiefineart.jpg);
+    background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 
 
 header {
-	position: relative;
+    position: relative;
 }
 
 #blackbox {
-	background: black;
-	height: 100%;
-	width: 100%;
-	margin:0 auto;
+    background: black;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #blackbox1 {
-	background: black;
-	height: 100%;
-	width: 100%;
-	margin:0 auto;
+    background: black;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
 }
 
-#logo{
-	height: 100%;
-	width: 9%;
-	padding:2px;
+#logo {
+    height: 100%;
+    width: 9%;
+    padding: 2px;
 }
 
-nav{
-	position:absolute;
-	right:10px;
-	top:10px;
-	padding:5px;
-	margin:5px;
+nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
-nav > ul{
-	margin:10px;
+nav > ul {
+    margin: 10px;
 }
 
-nav li ul{
-	display:none;
+nav li ul {
+    display: none;
 }
 
-nav li:hover ul, nav ul li li{
-	display:block;
+nav li:hover ul,
+nav ul li li {
+    display: block;
 }
 
-nav ul li{
-	list-style: none;
-	display: inline-block;
-	vertical-align: top;
-	margin: 5px;
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
 }
 
-nav ul li ul{
-	margin:2px;
-	padding:3px;
+nav ul li ul {
+    margin: 2px;
+    padding: 3px;
 }
 
-nav a{
-    border:3px solid black;
-	font-family: "Architects Daughter", cursive;
-	color:black;
-	background: linear-gradient( -45deg, yellow,orange 30%, orange 70%, red);
-	text-decoration: none;
-	padding:8px;
-	display: block;
-	width: 100px;
-	text-align: center;
-	font-size: 15px;
-	font-weight: bold;
-	border-radius:30px;
+nav a {
+    border: 3px solid black;
+    font-family: "Architects Daughter", cursive;
+    color: black;
+    background: linear-gradient( -45deg, yellow, orange 30%, orange 70%, red);
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
 }
 
-nav a:hover{
-	background: black;
-	color: yellow;
+nav a:hover {
+    background: black;
+    color: yellow;
 }
 
 
 #paragraph {
-		float: right;
-		text-align: top;
-	}
+    float: right;
+    text-align: top;
+}
 
 #hero {
     background-image: url(../assets/img/opietattoo.jpg);
-    background-size:100% 100%;
+    background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    height:900px;
-    display:flex;
-    align-items:center;
-    align-content:center;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    align-content: center;
     justify-content: center;
-    text-align:center;
+    text-align: center;
 }
- #video {
- 	background:black;
- 	opacity:.25;
- }
-.btn{
+
+#video {
+    background: black;
+    opacity: .25;
+}
+
+.btn {
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
     background-color: #08a;
     text-transform: uppercase;
     padding: 10px 20px;
-    margin:10px;
-    border:3px black solid;
-    box-shadow: 0px 0px 10px 3px rgba(0,0,0,.75);
+    margin: 10px;
+    border: 3px black solid;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .75);
 }
-.btn:hover{
-    box-shadow: 0px 0px 10px 3px rgba(255,255,255,.75);
+
+.btn:hover {
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, .75);
     background-color: #FFCC00;
     color: black;
 }
 
-.btn1{
+.btn1 {
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
     background-color: darkorange;
     text-transform: uppercase;
     padding: 10px 20px;
-    margin:10px;
-    border:3px white solid;
-    box-shadow: 0px 0px 10px 3px rgba(0,0,0,.75);
-    color:black;
+    margin: 10px;
+    border: 3px white solid;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .75);
+    color: black;
     border-radius: 30px;
-    
 }
-.btn1:hover{
-    box-shadow: 0px 0px 10px 3px rgba(255,255,255,.75);
+
+.btn1:hover {
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, .75);
     background-color: black;
     color: white;
 }
 
-.btn2{
+.btn2 {
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
     background-color: #FFCC00;
     text-transform: uppercase;
     padding: 10px 20px;
-    margin:10px;
-    border:3px white solid;
-    box-shadow: 0px 0px 10px 3px rgba(0,0,0,.75);
-    color:black;
+    margin: 10px;
+    border: 3px white solid;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .75);
+    color: black;
     border-radius: 30px;
-    
 }
-.btn2:hover{
-    box-shadow: 0px 0px 10px 3px rgba(255,255,255,.75);
+
+.btn2:hover {
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, .75);
     background-color: black;
     color: white;
 }
 
 #hero1 {
     background-image: url(../assets/img/opie.jpg);
-    background-size:100% auto;
+    background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment:fixed;
-    height:80vh;
-    display:flex;
-    align-items:center;
-    align-content:center;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
     justify-content: center;
-    text-align:center;
+    text-align: center;
 }
 
 #link {
-	vertical-align: text-bottom;
+    vertical-align: text-bottom;
 }
 
 .art {
     padding: 250px 20px;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-content: stretch;
-    background:black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    background: black;
     vertical-align: text-top;
 }
 
 .bio {
     padding: 50px 50px;
-	text-align: left;
-	justify-content: center;
-	align-content: stretch;
-    background:black;
+    text-align: left;
+    justify-content: center;
+    align-content: stretch;
+    background: black;
     font-size: 24px;
 }
-    
+
 #contact {
     padding: 50px 100px;
 }
 
 footer {
-    text-align: center;  
+    text-align: center;
     background-color: black;
-    }
+}
